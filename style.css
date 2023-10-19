@@ -1,0 +1,40 @@
+button{
+    width: 100%;
+    border-radius: 5px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 10px;
+    background-color: chocolate;
+    border: none;
+}
+
+.title{
+    background-color: peru;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.input_submit{
+    display: block;
+    margin: 20px;
+}
+
+.showNumber{
+    background: linear-gradient(to bottom, #ff6600 0%, #ffff00 100%);
+    font-weight: 400;
+    height: 50px;
+    font-size: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.bai9{
+    background-color: white;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 5px;
+}
+

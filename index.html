@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>
+    
+  </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container mb-3">
+        <div class="mb-3">
+            <form action="" id="form_nhap" onsubmit="NhapSo()">
+                <h2 class="title">Nhập vào số n</h2>
+                <input type="number"
+                class="form-control" name="" id="nhapSo" placeholder="">
+                <input class="my-2" id="input_submit" type="submit" >
+            </form>
+            <div class="showNumber "></div>
+            <div class="ketQua"></div>
+        </div>
+
+        <div class="mb-3 row g-1">
+          <!-- item 1-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="tongCacSoDuong()">1: Tổng số dương</button>
+            <div class="result1"></div>
+          </div>
+
+          <!-- item 2-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="soduongtrongmang()">2: Đếm số dương</button>
+            <div class="result2"></div>
+          </div>
+
+          <!-- item 3-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="sonhonhatmang()">3: Tìm số nhỏ nhất</button>
+            <div class="result3"></div>
+          </div>
+
+          <!-- item 4 -->
+          <div class="col-4 mb-3">
+            <button class="" onclick="soduongnhonhatmang()">4: Tìm số dương nhỏ nhất</button>
+            <div class="result4"></div>
+          </div>
+
+          <!-- item 5 -->
+          <div class="col-4 mb-3">
+            <button class="" onclick="sochancuoicungtrongmang()" >5: Tìm số chẵn cuối cùng</button>
+            <div class="result5"></div>
+          </div>
+
+          <!-- item 6-->
+          <div class="col-4 mb-3">
+            <form id="bai6" action="" onsubmit="doicho2giatri()">
+              <button class="" >6: Đổi chỗ</button>
+              <input type="number" id="indexA" placeholder="Vị trí A">
+              <input type="number" id="indexB" placeholder="Vị trí B">
+              <input type="submit">
+            </form>
+            <div class="result6"></div>
+          </div>
+
+          <!-- item 7-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="sorttangdan()">7: Sắp tăng dần</button>
+            <div class="result7"></div>
+          </div>
+
+          <!-- item 8-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="findNguyenTo()">8: Tìm số nguyên tố đầu tiên</button>
+            <div class="result8"></div>
+          </div>
+
+          <!-- item 9-->
+          <div class="col-4 mb-3">
+            <button class="">9: Đếm số nguyên</button>
+            <form action="" id="nhapBai9" onsubmit="nhapMangMoi()">
+              <input type="number"
+              class="form-control" name="" id="nhapSo9" placeholder="">
+              <input class="my-2" id="input_submit" type="submit" >
+          </form>
+          <button class="bai9" onclick="demsoNguyen()">đếm số nguyên</button>
+          <div class="result9"></div>
+          </div>
+
+          <!-- item 10-->
+          <div class="col-4 mb-3">
+            <button class="" onclick="sosanhsoduongvasoam()">10: So sánh số lượng số dương và âm</button>
+            <div class="result10"></div>
+          </div>
+        </div>
+    </div>
+    
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="./index.js" ></script>
+
+</body>
+
+</html>
